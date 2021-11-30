@@ -1,0 +1,40 @@
+@media (max-width: 992px) {
+  #company::after {
+    width: 145%;
+  }
+}
+@media (max-width: 768px) {
+  .banner .bannerLeft {
+    opacity: 0.6;
+    text-align: center;
+  }
+  .banner .bannerLeft h1 {
+    font-size: 50px;
+  }
+  .banner .bannerLeft p {
+    font-size: 28px;
+  }
+  .banner .card {
+    margin: auto;
+  }
+  #ourTiem .ourTiemItem img {
+    max-width: 132px;
+  }
+  #company::before {
+    width: 145%;
+  }
+  #contact::after {
+    width: 145%;
+  }
+}
+@media (max-width: 390px) {
+  .banner .bannerLeft h1 {
+    font-size: 30px;
+  }
+  .banner .bannerLeft p {
+    font-size: 20px;
+  }
+}
+#haderBanner::after {
+  width: 130%;
+}
